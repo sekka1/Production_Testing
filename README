@@ -1,0 +1,7 @@
+This is a repo holding testing code.
+
+/frisby
+The folder frisby is using frisby.js to perform testing on the production REST interface.
+
+Information about how to setup frisby.js can be found here: http://frisbyjs.com/
+
