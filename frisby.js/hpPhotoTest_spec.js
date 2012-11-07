@@ -34,7 +34,7 @@ frisby.create('HP Photo - Get Auth')
   				frisby.create('Create Collage')
   					.timeout(60000)
   					.post(URL + '/jobs',{
-  								job_params:'{"job":{"algorithm":{"id":"34","params":{"hp_authToken":"'+authToken.hp_authToken+'","hp_template_url":"https://region-a.geo-1.objects.hpcloudsvc.com:443/v1/41738351831371/collage-templates/template-heart.png","params":["https://sphotos-a.xx.fbcdn.net/hphotos-ash4/s480x480/247260_10151103681597099_539178508_n.jpg","https://sphotos-a.xx.fbcdn.net/hphotos-ash3/s480x480/550128_10150692414992099_1896023911_n.jpg"]}},"outputType":"json","method":"sync","datasources":[]}}'
+							job_params:'{"job":{"algorithm":{"id":"34","params":{"hp_authToken":"'+authToken.hp_authToken+'","hp_template_url":"https://region-a.geo-1.objects.hpcloudsvc.com:443/v1/41738351831371/collage-templates/template-heart.png","params":["https://sphotos-a.xx.fbcdn.net/hphotos-ash4/s480x480/247260_10151103681597099_539178508_n.jpg","https://sphotos-a.xx.fbcdn.net/hphotos-ash3/s480x480/550128_10150692414992099_1896023911_n.jpg"]}},"outputType":"json","method":"sync","datasources":[]}}'
   						})
   					.expectBodyContains('collage')
   					//.inspectBody()

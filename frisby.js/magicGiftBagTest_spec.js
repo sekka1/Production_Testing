@@ -27,7 +27,7 @@ frisby.create('MGB - Get gift recommendations')
   .expectHeaderContains('content-type', 'application/json')
   .expectBodyContains('interests')
   .toss();
-  
+
 /*
  * Test getting results from Amazon
  */
